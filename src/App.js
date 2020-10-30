@@ -11,6 +11,7 @@ import About from "./pages/About/About";
 import BackgroundImg from "./assets/img/parallex/background.webp";
 import Skills from "./pages/Skills/Skills";
 import Experience from "./pages/Experience/Experience";
+import ProjectTimeLine from "./components/projects-timeline/projects-timeline";
 
 const App = () => {
   return (
@@ -41,7 +42,7 @@ const App = () => {
         <div>
           <Container className="container-box rounded">
             <Slide duration={500}>
-              <hr/>
+              <hr />
               <Skills />
             </Slide>
           </Container>
@@ -52,8 +53,19 @@ const App = () => {
         <div>
           <Container className="container-box rounded">
             <Slide duration={500}>
-              <hr/>
+              <hr />
               <Experience />
+            </Slide>
+          </Container>
+        </div>
+      </div>
+      {/* Projects */}
+      <div>
+        <div>
+          <Container className="container-box rounded">
+            <Slide duration={500}>
+              <hr />
+              <ProjectTimeLine />
             </Slide>
           </Container>
         </div>
