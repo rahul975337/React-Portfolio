@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Fade, Slide } from "react-reveal/";
-import { Parallax } from "react-parallax";
 import { Container } from "react-bootstrap/";
 // components
 import MyNavbar from "./components/myNavBar/MyNavBar";

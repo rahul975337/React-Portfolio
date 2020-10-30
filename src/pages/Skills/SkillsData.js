@@ -10,23 +10,30 @@ import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-import L_GOLANG from "../../assets/img/skills/go-6.svg";
-import L_PYTHON from "../../assets/img/skills/python.svg";
 
+import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_FLUTTER from "../../assets/img/skills/flutterio-icon.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
+import L_C from "../../assets/img/skills/C-logo.webp";
+import L_JAVA from "../../assets/img/skills/java-icon.svg";
+import L_DART from "../../assets/img/skills/dartlang-icon.svg";
 ///////////////////////////////////////////////////
 export const skills = {
   frontend: [
+    {
+      link: "https://flutter.dev/",
+      imgAltText: "Flutter",
+      imgSrc: L_FLUTTER,
+      skillName: "Flutter",
+    },
     {
       link: "https://en.wikipedia.org/wiki/HTML5",
       imgAltText: "HTML 5",
@@ -46,12 +53,7 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
+
     {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
@@ -64,18 +66,18 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
-    },
+    // {
+    //   link: "https://redux.js.org/",
+    //   imgAltText: "Redux",
+    //   imgSrc: L_REDUX,
+    //   skillName: "Redux",
+    // },
+    // {
+    //   link: "https://reacttraining.com/react-router/",
+    //   imgAltText: "React Router",
+    //   imgSrc: L_REACT_ROUTER,
+    //   skillName: "React Router",
+    // },
     {
       link: "https://material-ui.com/",
       imgAltText: "Material-UI",
@@ -88,12 +90,12 @@ export const skills = {
       imgSrc: L_REACT_BOOTSTRAP,
       skillName: "React Bootstrap",
     },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
+    // {
+    //   link: "https://styled-components.com/",
+    //   imgAltText: "styled-components",
+    //   imgSrc: L_STYLED_COMPONENTS,
+    //   skillName: "styled-components",
+    // },
   ],
 
   backend: [
@@ -110,16 +112,10 @@ export const skills = {
       skillName: "Express",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     },
   ],
   hostingPlatforms: [
@@ -130,10 +126,10 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase Hosting",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase Hosting",
     },
     {
       link: "https://pages.github.com/",
@@ -150,30 +146,30 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      link: "https://www.java.com/en/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
     },
     {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
+      link: "https://dart.dev/",
+      imgAltText: "Dart",
+      imgSrc: L_DART,
+      skillName: "Dart",
     },
     {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
+      link: "https://www.learn-c.org/",
+      imgAltText: "C",
+      imgSrc: L_C,
+      skillName: "C",
     },
   ],
   databases: [
     {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
+      link: "https://firebase.google.com/",
+      imgAltText: "Firestore",
+      imgSrc: L_FIREBASE,
+      skillName: "Firestore",
     },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
