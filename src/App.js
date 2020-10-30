@@ -8,8 +8,9 @@ import { Container } from "react-bootstrap/";
 import MyNavBar from "./components/myNavBar/MyNavBar";
 import MyCarousel from "./components/myCarousel/myCarousel";
 import TitleMessage from "./components/title-message/title-message";
-import About from "./pages/about/About";
-import BackgroundImg from './assets/img/parallex/background.webp'
+import About from "./pages/About/About";
+import BackgroundImg from "./assets/img/parallex/background.webp";
+import Skills from "./pages/Skills/Skills";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <MyNavBar />
       <MyCarousel />
       <TitleMessage />
+      {/* About */}
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -32,6 +34,17 @@ const App = () => {
             </Container>
           </div>
         </Parallax>
+      </div>
+      {/* Skills */}
+
+      <div>
+        <div>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+              <Skills />
+            </Fade>
+          </Container>
+        </div>
       </div>
     </div>
   );
