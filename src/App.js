@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+import { Fade, Slide } from "react-reveal/";
 import { Parallax } from "react-parallax";
 import { Container } from "react-bootstrap/";
 // components
@@ -11,6 +10,7 @@ import TitleMessage from "./components/title-message/title-message";
 import About from "./pages/About/About";
 import BackgroundImg from "./assets/img/parallex/background.webp";
 import Skills from "./pages/Skills/Skills";
+import Experience from "./pages/Experience/Experience";
 
 const App = () => {
   return (
@@ -40,9 +40,21 @@ const App = () => {
       <div>
         <div>
           <Container className="container-box rounded">
-            <Fade duration={500}>
+            <Slide duration={500}>
+              <hr/>
               <Skills />
-            </Fade>
+            </Slide>
+          </Container>
+        </div>
+      </div>
+      {/* Experience */}
+      <div>
+        <div>
+          <Container className="container-box rounded">
+            <Slide duration={500}>
+              <hr/>
+              <Experience />
+            </Slide>
           </Container>
         </div>
       </div>
