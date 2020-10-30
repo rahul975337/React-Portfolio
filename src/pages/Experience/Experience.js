@@ -62,7 +62,6 @@ const Experience = () => {
                         databases to load/ remove data according to the business
                         requirements.
                       </li>
-                      {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
                     </ul>
                   </Card.Text>
                 </div>

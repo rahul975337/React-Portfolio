@@ -7,6 +7,7 @@
   font-size: 20px;
 }
 
+
 .animate-navbar {
   box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;

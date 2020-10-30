@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.css";
+
 import { Fade, Slide } from "react-reveal/";
 import { Parallax } from "react-parallax";
 import { Container } from "react-bootstrap/";
 // components
-import MyNavBar from "./components/myNavBar/MyNavBar";
+import MyNavbar from "./components/myNavBar/MyNavBar";
 import MyCarousel from "./components/myCarousel/myCarousel";
 import TitleMessage from "./components/title-message/title-message";
 import About from "./pages/About/About";
@@ -16,13 +16,15 @@ import ContactForm from "./pages/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 import Particles from "react-particles-js";
 import { ParticlesOptions } from "./ParticlesOptions";
+import "./App.css";
 
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
       <MyCarousel />
       <TitleMessage />
-      <MyNavBar />
+      <MyNavbar />
+
       <Particles
         className="particles particles-box"
         params={ParticlesOptions}
@@ -45,24 +47,39 @@ const App = () => {
         </Parallax>
       </div>
       {/* Skills */}
-      <div>
-        <div>
-          <Container className="container-box rounded">
-            <Slide duration={500}>
-              <hr />
-              <Skills />
-            </Slide>
-          </Container>
-        </div>
-      </div>
-      {/* Experience */}
+
       <Container className="container-box rounded">
-        <Experience />
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
       </Container>
+
+      {/* Experience */}
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
       {/* Projects */}
-      <ProjectTimeLine />
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <ProjectTimeLine />
+        </Slide>
+      </Container>
       {/* Contact Me Form */}
-      <ContactForm />
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <ContactForm />
+        </Fade>
+      </Container>
+      <hr />
       {/* FOOTER */}
       <Footer />
     </div>
