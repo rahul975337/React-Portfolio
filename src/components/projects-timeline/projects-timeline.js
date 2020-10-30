@@ -33,7 +33,7 @@ const ProjectTimeLine = () => {
     <div id="projects">
       {" "}
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-      <Timeline>
+      <Timeline >
         <Events>
           {/* Project: Todo List With MUI */}
           <ImageEvent

@@ -12,13 +12,21 @@ import BackgroundImg from "./assets/img/parallex/background.webp";
 import Skills from "./pages/Skills/Skills";
 import Experience from "./pages/Experience/Experience";
 import ProjectTimeLine from "./components/projects-timeline/projects-timeline";
+import ContactForm from "./pages/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
+import Particles from "react-particles-js";
+import { ParticlesOptions } from "./ParticlesOptions";
 
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
-      <MyNavBar />
       <MyCarousel />
       <TitleMessage />
+      <MyNavBar />
+      <Particles
+        className="particles particles-box"
+        params={ParticlesOptions}
+      />
       {/* About */}
       <div>
         <Parallax
@@ -37,7 +45,6 @@ const App = () => {
         </Parallax>
       </div>
       {/* Skills */}
-
       <div>
         <div>
           <Container className="container-box rounded">
@@ -49,27 +56,15 @@ const App = () => {
         </div>
       </div>
       {/* Experience */}
-      <div>
-        <div>
-          <Container className="container-box rounded">
-            <Slide duration={500}>
-              <hr />
-              <Experience />
-            </Slide>
-          </Container>
-        </div>
-      </div>
+      <Container className="container-box rounded">
+        <Experience />
+      </Container>
       {/* Projects */}
-      <div>
-        <div>
-          <Container className="container-box rounded">
-            <Slide duration={500}>
-              <hr />
-              <ProjectTimeLine />
-            </Slide>
-          </Container>
-        </div>
-      </div>
+      <ProjectTimeLine />
+      {/* Contact Me Form */}
+      <ContactForm />
+      {/* FOOTER */}
+      <Footer />
     </div>
   );
 };
