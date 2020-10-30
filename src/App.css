@@ -9,7 +9,9 @@ hr {
     rgba(0, 0, 0, 0)
   );
 }
-
+.about-bg{
+   background-color: #101018f8;
+}
 .container-box {
   width: 80%;
   background-color: transparent;

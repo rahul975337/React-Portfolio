@@ -1,7 +1,10 @@
 .img-resize {
   width: 10em;
 }
-
+h1{
+  color: black;
+  font-weight: bolder;
+}
 .style {
   font-size: 20px;
 }

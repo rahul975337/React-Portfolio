@@ -16,7 +16,6 @@ const About = () => {
                   className="profile justify-content-end"
                   alt="profile"
                   src={Profile}
-                  thumbnail
                   fluid
                 />
               </Row>
@@ -27,19 +26,15 @@ const About = () => {
               <Row className=" align-items-start p-2 my-details rounded">
                 {" "}
                 Hi there! I am <strong>&nbsp;Rahul Tilwani</strong>
-                <br />A passionate programmer and a Coach, born and brought up
-                in India. I am a Full Stack Web Developer with React.js, Redux,
-                Express.js, Node.js, and PostgreSQL as my tech stack.
+                <br />A passionate programmer and a developer, born and brought
+                up in India. I am a student working on enhancing my skills and
+                learning new things.
                 <br />
-                In 2019, I successfully completed my Engineering with
-                specialization in 'Electronics and Telecommunication'.
+                I am currently persuing my Bachelor of Engineering degree in
+                Information Science and Engineering.
                 <br />
-                Working with the clients, my goal is always driven towards
-                providing amazing experience with the best level of quality and
-                service to them.
-                <br />
-                Along with that, I also help people as a COACH on their journey
-                of becoming a professional programmer.
+                I am currently looking for some internship opportunities to
+                enhance my skills and also gain some good experience.
                 <br />I love learning about new technologies, what problems are
                 they solving and How can I use them to build better and scalable
                 products.
@@ -57,7 +52,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1tUTiUCCJ_cbb4hFd46pfxgUiVXEtAfsm/view?usp=drivesdk"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -68,18 +63,18 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://github.com/akjha96"
+                      href="https://github.com/rahul975337"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Button className="m-2" variant="outline-dark">
+                      <Button className="m-2" variant="outline-warning">
                         GitHub
                       </Button>
                     </a>
                   </div>
                   <div>
                     <a
-                      href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
+                      href="https://www.linkedin.com/in/rahul-tilwani-965291194/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

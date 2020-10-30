@@ -8,7 +8,7 @@ import MyNavbar from "./components/myNavBar/MyNavBar";
 import MyCarousel from "./components/myCarousel/myCarousel";
 import TitleMessage from "./components/title-message/title-message";
 import About from "./pages/About/About";
-import BackgroundImg from "./assets/img/parallex/background.webp";
+
 import Skills from "./pages/Skills/Skills";
 import Experience from "./pages/Experience/Experience";
 import ProjectTimeLine from "./components/projects-timeline/projects-timeline";
@@ -30,13 +30,8 @@ const App = () => {
         params={ParticlesOptions}
       />
       {/* About */}
-      <div>
-        <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={BackgroundImg}
-          bgImageAlt="LOading background"
-          strength={-200}
-        >
+      <div className='about-bg'>
+
           <div>
             <Container className="container-box rounded">
               <Fade duration={500}>
@@ -44,7 +39,7 @@ const App = () => {
               </Fade>
             </Container>
           </div>
-        </Parallax>
+
       </div>
       {/* Skills */}
 
