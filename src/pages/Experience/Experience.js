@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Jumbotron, Card } from "react-bootstrap/";
-import L_CITOTO from "../../assets/img/experience/citoto.png";
+import { Container, Card } from "react-bootstrap/";
+
 import Tilt from "react-tilt";
 import "./Experience.css";
 // ////////////////
@@ -62,7 +62,8 @@ const Experience = () => {
                       load/ remove data according to the business requirements.
                     </li>
                     <li>
-                      <strong>Developed</strong> Work Ethics and completing the assigned task on time.
+                      <strong>Developed</strong> Work Ethics and completing the
+                      assigned task on time.
                     </li>
                   </ul>
                 </Card.Text>

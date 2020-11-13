@@ -3,7 +3,6 @@ import Carousel from "react-bootstrap/Carousel";
 import Slide1 from "../../assets/img/carousal/slide1.webp";
 import "./myCarousel.css";
 
-import ScrollDown from "../scrollDown/scroll";
 const MyCarousel = () => {
   return (
     <div id="home">

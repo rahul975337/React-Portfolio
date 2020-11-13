@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap/";
 import MyNavbar from "./components/myNavBar/MyNavBar";
 import MyCarousel from "./components/myCarousel/myCarousel";
 import TitleMessage from "./components/title-message/title-message";
-import About from "./pages/About/About";
+import About from "./pages/about/About";
 
 import Skills from "./pages/Skills/Skills";
 import Experience from "./pages/Experience/Experience";
